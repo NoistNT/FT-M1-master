@@ -1,7 +1,5 @@
 'use strict';
 
-const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
-
 /*
 Definir las funciones recursivas nFactorial y nFibonacci.
 
