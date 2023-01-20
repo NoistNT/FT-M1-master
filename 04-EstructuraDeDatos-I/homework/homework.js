@@ -48,7 +48,7 @@ class Queue {
   }
   enqueue(value) { return this.array.push(value) }
   dequeue() { return this.array.shift() }
-  size() { return this.array.length }
+  size() { return this.array.length || undefined }
 }
 
 // // Constructor function
@@ -69,7 +69,7 @@ console.log(mQueue.size())
 
 /*⚠️ No modificar nada debajo de esta línea ⚠️*/
 module.exports = {
-   Queue,
-   nFactorial,
-   nFibonacci,
+  Queue,
+  nFactorial,
+  nFibonacci,
 };
