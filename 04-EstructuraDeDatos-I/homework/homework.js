@@ -48,7 +48,7 @@ class Queue {
   }
   enqueue(value) { return this.array.push(value) }
   dequeue() { return this.array.shift() }
-  size() { return this.array.length || undefined }
+  size() { return this.array.length }
 }
 
 // // Constructor function
